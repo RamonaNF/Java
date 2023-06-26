@@ -1,0 +1,19 @@
+Máster completo de java
+  SE standar edition
+  EE enterprise edition
+  
+  Instructor: Andrés José Guzmán
+
+
+
+- Multiplataforma 
+    Desarrollar, ejecutar y desplegar en cualquier lugar
+- Consola, apps de escritorio/web, servicios...
+
+
+
+PREMISA - James Goslin
+"Escríbelo una vez, ejecútalo donde sea"
+
+
+
