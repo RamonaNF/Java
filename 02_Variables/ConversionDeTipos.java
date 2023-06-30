@@ -8,10 +8,10 @@ public class ConversionDeTipos {
         System.out.println("String -> primitivoNumBool = NumBool.parseNumBool(String)\n");
 
         System.out.println("  enteroStr = " + enteroStr + " [" + enteroStr.getClass() + "]");
-        System.out.println("    e.g. short = " + Short.parseShort(enteroStr) + '\n'); //+1????
+        System.out.println("    e.g. short = " + (Short.parseShort(enteroStr) + 1) + '\n');
         
         System.out.println("  realStr = " + realStr + " [" + realStr.getClass() + "]");
-        System.out.println("    e.g. double = " + Double.parseDouble(realStr) + '\n');
+        System.out.println("    e.g. double = " + (Double.parseDouble(realStr) + 1) + '\n');
 
         System.out.println("  logicStr = " + logicStr + " [" + logicStr.getClass() + "]");
         System.out.println("    e.g. boolean = " + Boolean.parseBoolean(logicStr) + '\n');
