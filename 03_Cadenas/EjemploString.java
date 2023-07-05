@@ -1,11 +1,11 @@
 
 public class EjemploString {
-    public static void main(EjString[] args) {
+    public static void main(String[] args) {
         System.out.println("Trabajando con Strings\n");
 
         // Creación de un objeto (forma implícita vs explícita)
-        EjString instanciaDirecta = "Aún soy un un objeto, solo que java se encarga de todoo :)";
-        EjString usandoConstructor = new EjString("\"new\" es la forma más común de declarar objetos... yeah");
+        String instanciaDirecta = "Aún soy un un objeto, solo que java se encarga de todoo :)";
+        String usandoConstructor = new String("\"new\" es la forma más común de declarar objetos... yeah");
 
         // Comparando contenido [.equals()]
         instanciaDirecta = "SoY Un sTrInG... yEaH";
