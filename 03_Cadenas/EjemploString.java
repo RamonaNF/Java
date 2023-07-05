@@ -17,7 +17,7 @@ public class EjemploString {
         // Comparando referencias [==]
         System.out.println("instanciaDirecta == usandoConstructor " + (instanciaDirecta == usandoConstructor));
 
-        instanciaDirecta = usandoConstructor = ":O ¿Apuntan al mismo lugar? U obtuvieron el mismo valor"; //"Solo la misma vieja frase :P";
+        instanciaDirecta = usandoConstructor = ":O ¿Apuntan al mismo lugar? U obtuvieron el mismo valor";
 
         System.out.println("¿Qué tal ahoraa? " + (instanciaDirecta == usandoConstructor) + '\n');
 
