@@ -21,7 +21,7 @@ public class EjemploString {
 
         System.out.println("¿Qué tal ahoraa? " + (instanciaDirecta == usandoConstructor) + '\n');
 
-        System.out.println("Este cambio de debe a una particularidad de Java...");
+        System.out.println("Este cambio se debe a una particularidad de Java...");
         System.out.println("  Al crear un objeto con el mismo valor que uno ya existente,\n   no se crea una nueva instancia para optimizar,\n   sino que se le asigna la referencia que ya lo tiene");
     }
 }

@@ -20,7 +20,7 @@ public class StringValidar {
 
         test = " "; 
         System.out.println("(test == \"\") isEmpty: " + (test == ""));
-        System.out.println("test.isBlank() isBlank: " + test.isBlank() + "\n\n"); // true if !isEmpy !onlyWhitespaces
+        System.out.println("test.isBlank() isBlank: " + test.isBlank() + "\n\n"); // true if (isEmpty || hasOnlyWhitespaces)
 
 
         System.out.println("VALIDACIONES");
