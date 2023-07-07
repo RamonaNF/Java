@@ -12,7 +12,7 @@ public class JavaUtilDate {
         System.out.println("formatoEstandar = " + formatoEstandar + '\n');
 
         // Date and Time Patterns: https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
-        SimpleDateFormat patronPersonalizado = new SimpleDateFormat("MMMM dd, YYYY hh a :)");
+        SimpleDateFormat patronPersonalizado = new SimpleDateFormat("MMMM dd, YYYY hh a ':)'");
         String personalizado = patronPersonalizado.format(formatoEstandar);
         System.out.println("personalizado = " + personalizado);
 
