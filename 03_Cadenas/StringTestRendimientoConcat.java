@@ -19,6 +19,7 @@ public class StringTestRendimientoConcat {
         concat = fin-ini;
         System.out.println(" " + concat + " ms\n");
         //System.out.println("a = " + a + '\n');
+        System.gc();
 
 
 
@@ -36,6 +37,7 @@ public class StringTestRendimientoConcat {
         sum = fin-ini;
         System.out.println(" " + sum + " ms\n");
         //System.out.println("a = " + a + '\n');
+        System.gc();
 
 
 
@@ -51,6 +53,7 @@ public class StringTestRendimientoConcat {
         strB = fin-ini;
         System.out.println(" " + strB + " ms\n\n");
         //System.out.println("sb = " + sb.toString() + '\n');
+        System.gc();
 
 
 
